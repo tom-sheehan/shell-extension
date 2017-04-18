@@ -3,7 +3,7 @@
 This project represents an extremely simple module extension.  The main point is to be 
 concise, and not to show best practice.
 
-## Usage:
+## Shell Session:
 ```
 git clone  ...
 cd shell-extension
