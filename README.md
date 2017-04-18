@@ -3,6 +3,15 @@
 This project represents an extremely simple module extension.  The main point is to be 
 concise, and not to show best practice.
 
+The following demonstrates that ```groovysh``` will find an extension to the ```String``` class.  The shell appears to be checking in the file ```META-INF/services/org.codehaus.groovy.runtime.ExtensionModule``` for compiled code to use extensions.  In this case we only have the one module specified, ```SampleUtil```.
+```
+moduleName=Sample module extension
+moduleVersion=1.0-test
+extensionClasses=
+staticExtensionClasses=SampleUtil
+```
+
+
 ## Shell Session:
 ```
 git clone  ...
